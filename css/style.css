@@ -1,0 +1,32 @@
+/*Dispositivos pequeños*/
+@media all and (max-width: 767px) {
+  
+    .tamanio-img-slider {
+        width: 100%;
+        height: 10rem;
+        object-fit: cover;
+    }
+
+  }
+  
+  /*Disp medianos*/
+  @media all and (min-width: 768px) and (max-width: 991px) {
+
+    .tamanio-img-slider {
+        width: 100%;
+        height: 18rem;
+        object-fit: cover;
+    }
+
+  }
+  
+  /*Disp grandes*/
+  @media all and (min-width: 992px) {
+
+    .tamanio-img-slider {
+        width: 100%;
+        height: 25rem;
+        object-fit: cover;
+    }
+
+  }
