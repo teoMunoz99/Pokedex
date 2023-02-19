@@ -1,0 +1,66 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+main{
+  min-height: calc(100vh - 56px - 88px);
+}
+
+.bg-color{
+  background-color: #FFF0C9;
+}
+
+.tamanio-img-error{
+  width: 40rem;
+}
+
+.tamanio-font{
+  font-size: 5rem;
+}
+
+.bg-img {
+  background-image: url(../img/bgPokemon.png);
+}
+
+.box-shadow {
+  color: black;
+  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.55);
+}
+
+/*Dispositivos pequeños*/
+@media all and (max-width: 767px) {
+  
+    .tamanio-img-slider {
+        width: 100%;
+        height: 10rem;
+        object-fit: cover;
+    }
+
+  }
+
+  .img-personal{
+    width: 20rem;
+    object-fit: cover;
+    margin: 1rem 0;
+    border-radius: 50%;
+  }
+  
+  /*Disp medianos*/
+  @media all and (min-width: 768px) and (max-width: 991px) {
+
+    .tamanio-img-slider {
+        width: 100%;
+        height: 18rem;
+        object-fit: cover;
+    }
+
+  }
+  
+  /*Disp grandes*/
+  @media all and (min-width: 992px) {
+
+    .tamanio-img-slider {
+        width: 100%;
+        height: 25rem;
+        object-fit: cover;
+    }
+
+  }
