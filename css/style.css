@@ -16,6 +16,10 @@ main{
   font-size: 5rem;
 }
 
+.bg-img {
+  background-image: url(../img/bgPokemon.png);
+}
+
 /*Dispositivos pequeños*/
 @media all and (max-width: 767px) {
   
