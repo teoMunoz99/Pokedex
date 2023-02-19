@@ -20,6 +20,11 @@ main{
   background-image: url(../img/bgPokemon.png);
 }
 
+.box-shadow {
+  color: black;
+  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.55);
+}
+
 /*Dispositivos pequeños*/
 @media all and (max-width: 767px) {
   
