@@ -1,3 +1,9 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+.bg-color{
+  background-color: #FFF0C9;
+}
+
 /*Dispositivos pequeños*/
 @media all and (max-width: 767px) {
   
