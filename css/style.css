@@ -12,6 +12,14 @@ main{
   width: 40rem;
 }
 
+.tamanio-font{
+  font-size: 5rem;
+}
+
+.bg-img {
+  background-image: url(../img/bgPokemon.png);
+}
+
 /*Dispositivos pequeños*/
 @media all and (max-width: 767px) {
   
@@ -21,6 +29,13 @@ main{
         object-fit: cover;
     }
 
+  }
+
+  .img-personal{
+    width: 20rem;
+    object-fit: cover;
+    margin: 1rem 0;
+    border-radius: 50%;
   }
   
   /*Disp medianos*/
